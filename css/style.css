@@ -1,0 +1,48 @@
+:root {
+  --bs-body-bg: #eded00;
+
+}
+
+
+/* fonter */
+@font-face {
+  font-family: Montserrat;
+  src:
+    url(../fonts/montserrat-semibold.woff) format("woff"),
+    url(../fonts/montserrat-semibold.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Open Sans";
+  src:
+    url(../fonts/opensans.woff) format("woff"),
+    url(../fonts/opensans.woff2) format("woff2");
+}
+
+.navbar {
+  --bs-navbar-brand-font-size: 2.8rem;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.hero {
+  background-image: url("../images/soccer-field.webp");
+  height: 299px;
+}
+
+.my-card-width {
+  width: 280px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.social-link {
+  font-size: 1.8rem;
+}
